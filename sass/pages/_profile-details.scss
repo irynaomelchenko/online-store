@@ -1,3 +1,15 @@
+.search-keywords-page {
+  padding: 60px 0 68px;
+
+  @include media ('<=phone') {
+      padding: 40px 0 44px;
+  }
+
+  .search-keywords__description {
+      margin: 0 0 20px;
+  }
+}
+
 #main {
   background-color: #f4f6f5;
 }

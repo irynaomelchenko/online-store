@@ -1,4 +1,4 @@
-.search-keywords-product-page {
+.search-keywords-page {
     padding: 60px 0 68px;
 
     @include media ('<=phone') {
@@ -11,7 +11,7 @@
 }
 
 .product-details-content {
-    padding: 48px 0 123px;
+    padding: 0px 0 115px;
     background-color: $light-gray;
 
     @include media ('<=desktop') {
