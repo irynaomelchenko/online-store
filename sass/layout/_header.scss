@@ -187,17 +187,24 @@
 }
 
 // dropdown
-// .dropdown-open {
-//     &:hover {
-//         #dropdown {
-//            display: block;
-//         }
-//     }
-// }
+.dropdown-open {
+    &:hover {
+        #dropdown {
+           display: block;
+        }
+    }
+    
+}
 
-// #dropdown {
-//     display: none;
-// }
+#dropdown {
+    @extend %listreset;
+    display: none;
+    
+    li {
+        font-weight: 300;
+    }
+    
+}
 
 // burger-menu
 .nav-opener {
